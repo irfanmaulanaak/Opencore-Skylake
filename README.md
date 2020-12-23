@@ -8,4 +8,5 @@ CPU: Intel Core i5-6500
 <br>Ram: 12 GB
 <br>Graphics: Sapphire Nitro+ RX 470
 <br>Audio: Realtek ALC662 (layout-id: 11)
+<br>Ethernet: Realtek RTL8111
 <br>OS: Mac OS 11.1
