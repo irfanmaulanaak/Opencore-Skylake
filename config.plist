@@ -96,6 +96,11 @@
 				<key>AAPL,ig-platform-id</key>
 				<data>AQASGQ==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQ==</data>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -167,6 +172,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/CtlnaAHCIPort</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>RealtekRTL8111.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RealtekRTL8111</string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>MaxKernel</key>
@@ -424,7 +447,7 @@
 				<key>boot-args</key>
 				<string>alcid=11</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>run-efi-updater</key>
@@ -445,6 +468,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
+				<string>csr-active-config</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
@@ -497,7 +521,7 @@
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>UD6qAeab</data>
+			<data>9E0wBw7O</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
